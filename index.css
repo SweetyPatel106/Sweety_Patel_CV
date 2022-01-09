@@ -1,0 +1,63 @@
+/*CSS file for index.html*/
+
+p {
+    color: rgb(39, 147, 180);
+    font-family: Helvetica;
+}
+
+/*h1 styled with different font to rest of page and positioned at top of page*/
+h1 {
+    color:#bce9e1;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    grid-column: 2/12;
+    grid-row: 1;
+    text-align: center;
+    border: 1px inset lightgrey;
+    background-color: rgb(0, 80, 104);
+    font-weight: lighter;
+}
+
+/*body styled with light background colour. Positioning defined through width at 90%*/
+body {
+    background-color: #aaf3fa;
+    margin: auto;
+    width: 90%;
+}
+
+/*list font and colour defined*/
+ul {
+    color: rgb(0, 80, 104);
+    font-family: Helvetica;
+}
+
+/*section font size, positioning on grid defined below */
+section {
+    grid-column: 5/13;
+    grid-row: 2;
+    padding: 4px;
+    grid-gap: 10px;
+    font-size: 15;
+}
+  
+/*section font size, text alignment centred, and grid positioning defined below*/
+aside {
+    grid-column: 1/5;
+    grid-row: 2;
+    padding: 4px;
+    grid-gap: 10px;
+    border-right: 1px inset rgb(0, 80, 104);
+    text-align: center;
+    font-size: small;
+}
+
+/*footer grid positioning, background colour, text alignment and font size defined below*/
+footer {
+    grid-column: 2/12;
+    grid-row: 3;
+    text-align: center;
+    border: 1px inset lightgrey;
+    background-color: rgb(0, 80, 104);
+    row-gap: 1em;
+    margin-bottom: 1em;
+    font-size: small;
+}
